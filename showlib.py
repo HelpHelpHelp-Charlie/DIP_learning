@@ -5,22 +5,26 @@ def show1plt(img,n=""):
     plt.imshow(img, vmin=0, vmax=255)
     plt.xticks([]);
     plt.yticks([]);
+    plt.show()
+
     
 def show2plt(img,img2,n1="",n2=""):
     fig =plt.figure(figsize=(4,2));
     ax6=fig.add_subplot(121)
     cax6 = ax6.imshow(img, vmin=0, vmax=255)
-    fig.colorbar(cax6)
+    #fig.colorbar(cax6)
 
     plt.xticks([]);
     plt.yticks([]);
     plt.title(n1);
     axs=fig.add_subplot(122)
     cax2 = axs.imshow(img2, vmin=0, vmax=255)
-    fig.colorbar(cax2)
+    #fig.colorbar(cax2)
     plt.xticks([]);
     plt.yticks([]);
     plt.title(n2);
+    plt.show()
+
 
 def show3plt(img,img2,img3,n1="",n2="",n3=""):
     plt.figure(figsize=(6,2));
@@ -39,6 +43,8 @@ def show3plt(img,img2,img3,n1="",n2="",n3=""):
     plt.xticks([]);
     plt.yticks([]);
     plt.title(n3);
+    plt.show()
+
     
 def show4plt(img,img2,img3,img4,n1="",n2="",n3="",n4=""):
     plt.figure(figsize=(8,2));
@@ -62,6 +68,8 @@ def show4plt(img,img2,img3,img4,n1="",n2="",n3="",n4=""):
     plt.xticks([]);
     plt.yticks([]);
     plt.title(n4);
+    plt.show()
+
     
 def show5plt(img,img2,img3,img4,img5,n1="",n2="",n3="",n4="",n5=""):
     plt.figure(figsize=(10,2));
@@ -90,6 +98,8 @@ def show5plt(img,img2,img3,img4,img5,n1="",n2="",n3="",n4="",n5=""):
     plt.xticks([]);
     plt.yticks([]);
     plt.title(n5);
+    plt.show()
+
     
 def show6plt(img,img2,img3,img4,img5,img6,n1="",n2="",n3="",n4="",n5="",n6=""):
     plt.figure(figsize=(12,2));
@@ -123,6 +133,8 @@ def show6plt(img,img2,img3,img4,img5,img6,n1="",n2="",n3="",n4="",n5="",n6=""):
     plt.xticks([]);
     plt.yticks([]);
     plt.title(n6);
+    plt.show()
+
     
     
 def show7plt(img,img2,img3,img4,img5,img6,img7,n1="",n2="",n3="",n4="",n5="",n6="",n7=""):
@@ -162,6 +174,8 @@ def show7plt(img,img2,img3,img4,img5,img6,img7,n1="",n2="",n3="",n4="",n5="",n6=
     plt.xticks([]);
     plt.yticks([]);
     plt.title(n7);
+    plt.show()
+
     
 def show8plt(img,img2,img3,img4,img5,img6,img7,img8,n1="",n2="",n3="",n4="",n5="",n6="",n7="",n8=""):
     plt.figure(figsize=(16,2));
@@ -205,3 +219,4 @@ def show8plt(img,img2,img3,img4,img5,img6,img7,img8,n1="",n2="",n3="",n4="",n5="
     plt.xticks([]);
     plt.yticks([]);
     plt.title(n8);
+    plt.show()

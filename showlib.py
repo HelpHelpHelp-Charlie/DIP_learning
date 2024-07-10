@@ -5,6 +5,7 @@ def show1plt(img,n=""):
     plt.imshow(img, vmin=0, vmax=255)
     plt.xticks([]);
     plt.yticks([]);
+    plt.title(n);
     plt.show()
 
     
